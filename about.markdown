@@ -3,16 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
+# Crowd-sourcing a benchmark for English forced alignment
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Annotate with us!
+Do you use forced aligned English data? Do you wish forced aligners were more principled in placing segmental boundaries? If so, this workshop is for you! We are crowd-sourcing a manually-corrected benchmark for English forced aligners that can be easily distributed and used in the development of new models and architectures. The workshop will be a half day of correcting forced aligned English read speech according to formalized conventions, provided by the workshop organizers. So, just bring your laptop, your interest in fine phonetic detail, and your desire to create more linguistically-informed tools and open data sets!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+## Details
+Date:
+Time:
+Location:
