@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   This serves as the home for materials related to the 
   workshop "Crowd-sourcing a benchmark for English forced alignment"
   LabPhon20, Montréal, Québec, Canada from June 25, 2026
-baseurl: "" # the subpath of your site, e.g. /blog
-domain: mon-align
+baseurl: "mon-align" # the subpath of your site, e.g. /blog
+domain: "kmgunter.github.io"
 url: "https://kmgunter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
