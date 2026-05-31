@@ -25,8 +25,8 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Crowd-sourcing a benchmark for English forced alignment
 baseurl: "/mon-align" # the subpath of your site, e.g. /blog
-domain: "splaat-lab.github.io"
-url: "https://splaat-lab.github.io/mon-align/" # the base hostname & protocol for your site, e.g. http://example.com
+# domain: "splaat-lab.github.io"
+url: "https://splaat-lab.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
