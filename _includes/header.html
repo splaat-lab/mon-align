@@ -25,21 +25,20 @@
         {%- endif -%}
         {%- endfor -%}
         <div class="dropdown">
-          <a class="page-link" href="/workshop_materials/">Materials</a>
+          <!-- Added the relative_url filter here -->
+          <a class="page-link" href="{{ '/workshop_materials/' | relative_url }}">Materials</a>
+
           <div class="dropdown-content">
             {% assign sorted_materials = site.workshop_materials | sort: 'order' %}
             {% for item in sorted_materials %}
             {% unless item.url == '/workshop_materials/index' %}
-            <a class="page-link" href="{{ item.url | relative_url }}">
-              {{ item.title }}</a>
+            <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
             {% endunless %}
-            <!-- <a class="page-link" href="{{ item.url | relative_url }}">
-              {{ item.title }}
-            </a> -->
             {% endfor %}
           </div>
         </div>
       </div>
+  </div>
 
 
   </div>

@@ -4,5 +4,4 @@ title: Materials
 # permalink: /materials/
 ---
 
-### Welcome to my projects!
-Here you can find all my latest work.
+The workshop materials can be found here the day of the event!
