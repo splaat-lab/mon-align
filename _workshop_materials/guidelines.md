@@ -41,8 +41,6 @@ Phones: P, T, K, B, D, G, CH, and JH
 #### Following silence
 In English, voiceless stops have a longer period of noise following release of the burst than voiced consonant do. The boundary should be placed adjacent to and preceding the release of the burst.
 
-<!-- {% include figure.html src="img/sil_p.png" caption="Canonical boundary placement for voiceless stops" %} -->
-
 Example: ![voiceless stop](img/sil_p.png)
 
 #### Preceding silence & transitions
@@ -54,13 +52,9 @@ The boundary should be placed at the release of the consonant, include any phona
 #### Following silence
 For voiced stops without pre-voicing, the boundary should be placed adjacent to the short release burst. This may result in a very short segmental duration between the stop burst and the onset of the following vowel.
 
-<!-- {% include figure.html src="img/sil_b.png" caption="Canonical boundary placement for voiced stops" %} -->
-
 Example: ![voiced stop following silence](img/sil_b.png)
 
 For voiced stops with pre-voicing, the onset boundary of the segment should include any pre-voicing; place preceding and adjacent to the voicing onset.
-
-<!-- {% include figure.html src="img/sil_d_pvcd.png" caption="Canonical boundary placement for voiced stop with prevoicing" %} -->
 
 Example: ![voiced stop with prevoicing](img/sil_d_pvcd.png)
 
