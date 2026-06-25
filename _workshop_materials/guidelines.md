@@ -47,9 +47,7 @@ Phones: P, T, K, B, D, G, CH, and JH
 #### Following silence
 In English, voiceless stops have a longer period of noise following release of the burst than voiced consonant do. The boundary should be placed adjacent to and preceding the release of the burst.
 
-Example: 
 ![voiceless stop]({{ "/assets/img/sil_p.png" | relative_url }})
-<img src="{{ site.baseurl }}/assets/img/sil_p.png" alt="vls stop">
 
 #### Preceding silence & transitions
 The boundary should be placed at the release of the consonant, include any phonation, aspiration, or noise associated with the release, but exclude exhalation.
@@ -84,7 +82,6 @@ Without visible glottalization but visible voicing following formant cessation, 
 For voiceless stops, if you see an indication of the closure for the stop with no release, you can mark the onset at the closure and then the offset <=10ms. 
 
 ![voiceless stop]({{ "/assets/img/p_sil_unreleased.png" | relative_url }})
-
 
 *If no visual or auditory indication of the consonant, delete the segment.* 
 In the previous example, you can choose to delete the segment altogether. We think this is a judgement call, so use your intuition. Below is another example 
