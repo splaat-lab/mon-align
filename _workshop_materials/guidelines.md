@@ -18,13 +18,13 @@ A dialog box will appear and ask you to select from the options how you would li
 
 <span style="color:red">**Do not press STOP**</span>
 
-<span style="color:red">**Next**</span> Select this if the boundary is correct and it will proceed to the next interval.
+<span style="color:red">**Next**</span> Select if the boundary is correct and it will proceed to the next interval.
 
-<span style="color:red">**Adjust**</span>
+<span style="color:red">**Adjust**</span> Select if you would like to adjust the boundary. 
 
-<span style="color:red">**Add**</span>
+<span style="color:red">**Add**</span> Select if you would like to add a boundary. This will proceed to a secondary question that will prompt you for the phone label.
 
-<span style="color:red">**Remove**</span>
+<span style="color:red">**Remove**</span> 
 
 
 # Canonical Boundary Placement
@@ -41,7 +41,8 @@ Phones: P, T, K, B, D, G, CH, and JH
 #### Following silence
 In English, voiceless stops have a longer period of noise following release of the burst than voiced consonant do. The boundary should be placed adjacent to and preceding the release of the burst.
 
-Example: ![voiceless stop](img/sil_p.png)
+Example: 
+![voiceless stop](/assets/img/sil_p.png)
 
 #### Preceding silence & transitions
 The boundary should be placed at the release of the consonant, include any phonation, aspiration, or noise associated with the release, but exclude exhalation.
@@ -52,11 +53,11 @@ The boundary should be placed at the release of the consonant, include any phona
 #### Following silence
 For voiced stops without pre-voicing, the boundary should be placed adjacent to the short release burst. This may result in a very short segmental duration between the stop burst and the onset of the following vowel.
 
-Example: ![voiced stop following silence](img/sil_b.png)
+Example: ![voiced stop following silence](/assets/img/sil_b.png)
 
 For voiced stops with pre-voicing, the onset boundary of the segment should include any pre-voicing; place preceding and adjacent to the voicing onset.
 
-Example: ![voiced stop with prevoicing](img/sil_d_pvcd.png)
+Example: ![voiced stop with prevoicing](/assets/img/sil_d_pvcd.png)
 
 #### Preceding silence & transitions
 The boundary should be placed at the release of the consonant, include any phonation, aspiration, or noise associated with the release, but exclude exhalation.
@@ -75,13 +76,13 @@ Without visible glottalization but visible voicing following formant cessation, 
 
 For voiceless stops, if you see an indication of the closure for the stop with no release, you can mark the onset at the closure and then the offset <=10ms. 
 
-Example: ![voiceless stop](img/p_sil_unreleased.png)
+Example: ![voiceless stop](/assets/img/p_sil_unreleased.png)
 
 
 *If no visual or auditory indication of the consonant, delete the segment.* 
 In the previous example, you can choose to delete the segment altogether. We think this is a judgement call, so use your intuition. Below is another example 
 
-Example: ![voiceless stop](img/mp_sil.png)
+Example: ![voiceless stop](/assets/img/mp_sil.png)
 
 **Glottalization**
 
@@ -97,7 +98,7 @@ Phones: S, Z, H, SH, ZH, F, V, TH, and DH
 
 The boundary should be placed adjacently preceding the first sign of frication noise for the fricative.
 
-Example: ![voiceless stop](img/sil_s.png)
+Example: ![voiceless stop](/assets/img/sil_s.png)
 
 #### Preceding silence
 The boundary should be placed at the end of the noise associated with articulation of the fricative/affricate (be sure to listen to make sure that the noise doesn’t include exhalation).
@@ -112,7 +113,7 @@ The boundary is placed adjacent preceding the onset of phonation/nasalization.
 
 Visual anchors: Anti-formants during the segment and lower amplitude compared to surrounding segments. At the offset of the nasal, a rise in F1/F2
 
-Example: ![voiceless stop](img/initial_nasal.jpg)
+Example: ![voiceless stop](/assets/img/initial_nasal.jpg)
 
 #### Preceding silence & transitions
 The boundary should placed at the end of phonation and articulation associated with the nasal consonant but excluding exhalation. Look for evidence of F1 dropping out in the spectrogram. There is often spectral discontinuity between nasals and vowels, which may mark transition between phones.
@@ -125,12 +126,12 @@ Phones: L and R
 
 The boundary should be placed at the onset of the segment. This may be clear phonation and intensity seen as nearly black on the spectrogram. Some formants started to be present as part of the articulation of L, so the boundary should be placed at the onset of the noise and formant structure.
 
-Example: ![voiceless stop](img/initial_liquid.jpg)
+Example: ![voiceless stop](/assets/img/initial_liquid.jpg)
 
 **R - Rhotic**
 Place boundary at the onset of articulation-related noise in the signal. In this case, some articulation of R preceded phonation.
 
-Example: ![voiceless stop](img/initial_rhotic.jpg)
+Example: ![voiceless stop](/assets/img/initial_rhotic.jpg)
 
 #### Preceding silence & transitions
 **L - Lateral Approximant**
@@ -148,14 +149,14 @@ The boundary should be placed at the transition into the next segment or at the 
 **Vowels**
 The boundary should be placed at the onset of phonation/laryngeal activity related to the beginning of the vowel. Look for the onset of complex voicing (with higher frequency components).
 
-Example: ![voiceless stop](img/initial_vowel.jpg)
+Example: ![voiceless stop](/assets/img/initial_vowel.jpg)
 
 “Glottal pop” at the beginning of a vowel should be included as part of the vowel and the boundary should be placed adjacent to the glottal pulse.
 
 **Glides (W and Y)**
 The boundary placed at the onset of phonation or articulation (onset of glide may be something like a voiceless vowel).
 
-Example: ![voiceless stop](img/initial_glide.jpg)
+Example: ![voiceless stop](/assets/img/initial_glide.jpg)
 
 [Back to TOC](#top)
 
@@ -203,7 +204,7 @@ In some cases, stop closures can be long for emphasis or performative reasons an
 
 Select "Remove" to merge the sound with the following segment and provide the correct phone label.
 
-### When to insert segments
+### When to add segments
 Only insert segments when a segment is clearly missing. 
 
 Cases where segments may be missing:
