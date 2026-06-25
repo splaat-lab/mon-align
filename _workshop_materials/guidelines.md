@@ -166,7 +166,7 @@ The boundary should be placed at the onset of phonation/laryngeal activity relat
 **Glides (W and Y)**
 The boundary placed at the onset of phonation or articulation (onset of glide may be something like a voiceless vowel).
 
-![voiceless stop]({{ "/assets/img/l_sil.png" | relative_url }})
+![voiceless stop]({{ "/assets/img/sil_w.png" | relative_url }})
 
 [Back to TOC](#top)
 
