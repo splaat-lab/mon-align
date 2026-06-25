@@ -1,0 +1,5 @@
+{% assign figure_number = site.data.figures.size | plus: 1 %}
+<figure id="fig-{{ figure_number }}">
+  <img src="{{ include.src }}" alt="{{ include.caption }}">
+  <figcaption><strong>Figure {{ figure_number }}:</strong> {{ include.caption }}</figcaption>
+</figure>
