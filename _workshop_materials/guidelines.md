@@ -42,7 +42,7 @@ Phones: P, T, K, B, D, G, CH, and JH
 In English, voiceless stops have a longer period of noise following release of the burst than voiced consonant do. The boundary should be placed adjacent to and preceding the release of the burst.
 
 Example: 
-![voiceless stop](/assets/img/sil_p.png)
+![voiceless stop]({{ "/assets/img/sil_p.png" | relative_url }})
 
 #### Preceding silence & transitions
 The boundary should be placed at the release of the consonant, include any phonation, aspiration, or noise associated with the release, but exclude exhalation.
