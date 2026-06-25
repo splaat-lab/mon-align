@@ -43,6 +43,8 @@ In English, voiceless stops have a longer period of noise following release of t
 
 Example: 
 ![voiceless stop]({{ "/assets/img/sil_p.png" | relative_url }})
+<img src="{{ site.baseurl }}/assets/img/sil_p.png" alt="vls stop">
+
 
 #### Preceding silence & transitions
 The boundary should be placed at the release of the consonant, include any phonation, aspiration, or noise associated with the release, but exclude exhalation.
