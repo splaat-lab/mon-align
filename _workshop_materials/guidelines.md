@@ -122,6 +122,8 @@ Visual anchors: Anti-formants during the segment and lower amplitude compared to
 #### Preceding silence & transitions
 The boundary should placed at the end of phonation and articulation associated with the nasal consonant but excluding exhalation. Look for evidence of F1 dropping out in the spectrogram. There is often spectral discontinuity between nasals and vowels, which may mark transition between phones.
 
+[Back to TOC](#top)
+
 ### Liquids and Rhotics
 Phones: L and R
 
@@ -165,10 +167,6 @@ The boundary should be placed at the onset of phonation/laryngeal activity relat
 The boundary placed at the onset of phonation or articulation (onset of glide may be something like a voiceless vowel).
 
 ![voiceless stop]({{ "/assets/img/l_sil.png" | relative_url }})
-
-[Back to TOC](#top)
-
-#### Preceding silence & transitions
 
 [Back to TOC](#top)
 
