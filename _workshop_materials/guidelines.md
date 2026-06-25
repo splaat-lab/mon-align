@@ -9,14 +9,21 @@ order: 3
 
 # Set-up & Directions
 ## Getting your data
+We have handed out thumb drives with the data and a README.md file. It contains the information you need. If you don't have an adapter or a USB port on your computer, please copy over the files you need to your local computer to work on them.
+
 ## Using the script
+- Open the Praat script from the main objects window.
+- Click "Run"
+- Add the path of the root directory of the sound files to the prompt. On Mac, you can drag and drop the folder into the text box. Click Next.
+  - You don't need to enter annotator ID, unless we told you otherwise.
+- You will now be prompted to evaluate the right most boundary for the first segment! See below for description of the options.
 
 ## The Task
 The script will begin with the first interval and proceed through all intervals as you click through the options. Please note that when you have reached a specific interval, we're expecting you are changing the right most boundary (the offset) for that phone.
 
 A dialog box will appear and ask you to select from the options how you would like to proceed with the selected boundary. Select the option according to your judgement of whether the boundary is correct or not:
 
-<span style="color:red">**Next**</span> Select if the boundary is correct and it will proceed to the next interval.
+<span style="color:red">**Next**</span> Select if the boundary is correct and it will proceed to the next interval. **Note if you select Next it assumes the boundary is correct; try not to use the next button unless you agree with the boundary. If you click next on accident, you can use the "previous" button to go back and correct if necessary.
 
 <span style="color:red">**Adjust**</span> Select if you would like to adjust the boundary. Click "done" after you're satisfied with the new boundary.
 
@@ -200,6 +207,8 @@ Rule: keep the vowel but make the duration of the vowel segment very short in du
 
 **Syllabic R:** 
 Rule: syllabic R should be indicated by a single phone-label, [ER0], thus should be segmented to contain the entire interval.
+
+![voiceless stop]({{ "/assets/img/syl_r.png" | relative_url }})
 
 [Back to TOC](#top)
 
