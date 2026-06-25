@@ -24,13 +24,13 @@ email:
   - kaylynn.m.gunter@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Crowd-sourcing a benchmark for English forced alignment
-baseurl: "/mon-align" # the subpath of your site, e.g. /blog
-# domain: "splaat-lab.github.io"
-url: "https://splaat-lab.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/mon-align" # the subpath of your site, e.g. /blog
+# # domain: "splaat-lab.github.io"
+# url: "https://splaat-lab.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # local testing config
-# url: "https://splaat-lab.github.io/mon-align/"
-# domain: "splaat-lab.github.io"
-# baseurl: ""
+url: "https://splaat-lab.github.io/mon-align/"
+domain: "splaat-lab.github.io"
+baseurl: ""
 
 #twitter_username: jekyllrb
 #github_username:  jekyll
@@ -47,8 +47,8 @@ collections:
 
 kramdown:
   toc_levels: 1..3 
-# include:
-#   - _workshop_materials
+include:
+  - _workshop_materials
 
 # Exclude from processing.
 # The following items will not be processed, by default.
