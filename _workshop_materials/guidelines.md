@@ -170,24 +170,24 @@ The boundary placed at the onset of phonation or articulation (onset of glide ma
 
 [Back to TOC](#top)
 
-## Ambiguity & fuzzy boundaries
-### Transitions
+# Ambiguity & fuzzy boundaries
+## Transitions
 Transition segments of consonants and vowels should be included in the vowel portion. If the vowel segmentation occurs within the transition but does not include the entire transition, you do not need to adjust the boundaries.
 
 For transitions between two vowels (e.g., across word boundaries), it may be hard to distinguish between the two vowels, particularly if the final vowel and initial vowel share the same quality or are creaky. In these cases, use your best judgment to determine the boundary between the segments. Our guidance would be to place it about halfway through, but don't let this override your perception or experience.
 
-### Reductions
+## Reductions
 Connected speech reductions that result in deletion of segments from the citation form (e.g., /P R AA1 B AH0 B L IY0/ -> [P R AA1 B L IY0]) should have the phones removed.
 
-### Consonant deletion
+## Consonant deletion
 Listen to the audio for verification of whether the consonant is produced in addition to using the visual cues in the spectrogram. 
 
 If no visual or auditory indication of the consonant, delete the segment.
 
 For stop consonant clusters (e.g., skipped [S K IH1 P T]), if there is an audible cluster, place the segment halfway through the closure and the final boundary at the end of the aspiration. 
 
-## Special Cases
-### Syllabic Consonants
+# Special Cases
+## Syllabic Consonants
 There are two ways we will deal with syllabic liquids, for /l/ there will be two phone segments, and for /r/ there will be a single phone segment. Be aware of this when you're reviewing the boundaries and adjust accordingly.
 
 **Syllabic L:** Occurs word finally in unstressed syllables (words ending in -le, -al, -el, -ol)
@@ -207,8 +207,8 @@ Rule: syllabic R should be indicated by a single phone-label, [ER0], thus should
 
 [Back to TOC](#top)
 
-## Removing and adding segments
-### When to delete segments
+# Removing and adding segments
+## When to delete segments
 Only delete segments if there is an error or when there is clear evidence that the segment is not present audibly or visually, such as consonant cluster reduction or unreleased consonants.
 
 Occasionally silence phones will be inserted where there is no silence, in these cases you can delete the silence phone and merge it with the following segment, and adjust the new phone boundary as needed.
@@ -217,14 +217,14 @@ In some cases, stop closures can be long for emphasis or performative reasons an
 
 Select "Remove" to merge the sound with the following segment and provide the correct phone label.
 
-### When to add segments
+## When to add segments
 Only insert segments when a segment is clearly missing. 
 
 Cases where segments may be missing:
 
-- Silence at the beginning of the file. There should be a <sil> phone at the beginning of each file, but if it is not present you can insert a boundary at the onset of the initial phone.
-- Insert silence if there appears to be 20-30ms of silence between phones that is currently missing.
-- Clear errors in alignment or pronunciation, where the wrong pronunciation variant was chosen and a segment is missing from the pronunciation. These cases are very rare.
+* Silence at the beginning of the file. There should be a <sil> phone at the beginning of each file, but if it is not present you can insert a boundary at the onset of the initial phone.
+* Insert silence if there appears to be 20-30ms of silence between phones that is currently missing.
+* Clear errors in alignment or pronunciation, where the wrong pronunciation variant was chosen and a segment is missing from the pronunciation. These cases are very rare.
 
 Select "Add" to add an new boundary and provide the correct phone label.
 
