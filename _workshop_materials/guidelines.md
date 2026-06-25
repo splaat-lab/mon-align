@@ -16,16 +16,15 @@ The script will begin with the first interval and proceed through all intervals 
 
 A dialog box will appear and ask you to select from the options how you would like to proceed with the selected boundary. Select the option according to your judgement of whether the boundary is correct or not:
 
-<span style="color:red">**Do not press STOP**</span>
-
 <span style="color:red">**Next**</span> Select if the boundary is correct and it will proceed to the next interval.
 
-<span style="color:red">**Adjust**</span> Select if you would like to adjust the boundary. 
+<span style="color:red">**Adjust**</span> Select if you would like to adjust the boundary. Click "done" after you're satisfied with the new boundary.
 
 <span style="color:red">**Add**</span> Select if you would like to add a boundary. This will proceed to a secondary question that will prompt you for the phone label.
 
-<span style="color:red">**Remove**</span> 
+<span style="color:red">**Remove**</span> Select if you would like to remove the interval, merging the interval with the following phone. This will proceed to a secondary question that will prompt you for the new phone label, defaulting to the next phone.
 
+<span style="color:red">**Do not press STOP**</span> this will effectively stop the script without saving your progress. Continue through the intervals for the file and the file will auto-save at the end.
 
 # Canonical Boundary Placement
 You will be updating the right boundary in an interval. Keep in mind this serves as the end boundary for the current interval, but the initial boundary for the following interval. So you must consider both segments when shifting the boundary.
@@ -45,7 +44,6 @@ Example:
 ![voiceless stop]({{ "/assets/img/sil_p.png" | relative_url }})
 <img src="{{ site.baseurl }}/assets/img/sil_p.png" alt="vls stop">
 
-
 #### Preceding silence & transitions
 The boundary should be placed at the release of the consonant, include any phonation, aspiration, or noise associated with the release, but exclude exhalation.
 
@@ -55,11 +53,11 @@ The boundary should be placed at the release of the consonant, include any phona
 #### Following silence
 For voiced stops without pre-voicing, the boundary should be placed adjacent to the short release burst. This may result in a very short segmental duration between the stop burst and the onset of the following vowel.
 
-Example: ![voiced stop following silence](/assets/img/sil_b.png)
+![voiced stop]({{ "/assets/img/sil_b.png" | relative_url }})
 
 For voiced stops with pre-voicing, the onset boundary of the segment should include any pre-voicing; place preceding and adjacent to the voicing onset.
 
-Example: ![voiced stop with prevoicing](/assets/img/sil_d_pvcd.png)
+![voiced stop with prevoicing]({{ "/assets/img/sil_d_pvcd.png" | relative_url }})
 
 #### Preceding silence & transitions
 The boundary should be placed at the release of the consonant, include any phonation, aspiration, or noise associated with the release, but exclude exhalation.
@@ -78,13 +76,13 @@ Without visible glottalization but visible voicing following formant cessation, 
 
 For voiceless stops, if you see an indication of the closure for the stop with no release, you can mark the onset at the closure and then the offset <=10ms. 
 
-Example: ![voiceless stop](/assets/img/p_sil_unreleased.png)
+![voiceless stop]({{ "/assets/img/p_sil_unreleased.png" | relative_url }})
 
 
 *If no visual or auditory indication of the consonant, delete the segment.* 
 In the previous example, you can choose to delete the segment altogether. We think this is a judgement call, so use your intuition. Below is another example 
 
-Example: ![voiceless stop](/assets/img/mp_sil.png)
+![voiceless stop]({{ "/assets/img/mp_sil.png" | relative_url }})
 
 **Glottalization**
 
@@ -100,7 +98,7 @@ Phones: S, Z, H, SH, ZH, F, V, TH, and DH
 
 The boundary should be placed adjacently preceding the first sign of frication noise for the fricative.
 
-Example: ![voiceless stop](/assets/img/sil_s.png)
+Example: ![voiceless stop]({{ "/assets/img/sil_s.png" | relative_url }})
 
 #### Preceding silence
 The boundary should be placed at the end of the noise associated with articulation of the fricative/affricate (be sure to listen to make sure that the noise doesn’t include exhalation).
@@ -115,7 +113,7 @@ The boundary is placed adjacent preceding the onset of phonation/nasalization.
 
 Visual anchors: Anti-formants during the segment and lower amplitude compared to surrounding segments. At the offset of the nasal, a rise in F1/F2
 
-Example: ![voiceless stop](/assets/img/initial_nasal.jpg)
+![voiceless stop]({{ "/assets/img/sil_m.png" | relative_url }})
 
 #### Preceding silence & transitions
 The boundary should placed at the end of phonation and articulation associated with the nasal consonant but excluding exhalation. Look for evidence of F1 dropping out in the spectrogram. There is often spectral discontinuity between nasals and vowels, which may mark transition between phones.
@@ -128,21 +126,27 @@ Phones: L and R
 
 The boundary should be placed at the onset of the segment. This may be clear phonation and intensity seen as nearly black on the spectrogram. Some formants started to be present as part of the articulation of L, so the boundary should be placed at the onset of the noise and formant structure.
 
-Example: ![voiceless stop](/assets/img/initial_liquid.jpg)
+![voiceless stop]({{ "/assets/img/sil_l.png" | relative_url }})
 
 **R - Rhotic**
 Place boundary at the onset of articulation-related noise in the signal. In this case, some articulation of R preceded phonation.
 
-Example: ![voiceless stop](/assets/img/initial_rhotic.jpg)
+![voiceless stop]({{ "/assets/img/sil_r.png" | relative_url }})
 
 #### Preceding silence & transitions
 **L - Lateral Approximant**
 
 Look for vowel-like formants, but note that the acoustic energy is weaker than regular vowels, and higher than nasals.
 
+![voiceless stop]({{ "/assets/img/l_sil.png" | relative_url }})
+
+Note special cases below, for how to handle syllabic L.
+
 **R - Rhotic**
 
 The boundary should be placed at the transition into the next segment or at the cessation of acoustic energy preceding silence. Look for the F3 band plunges downward, sometimes almost touching F2. The offset of the liquid is the exact point where F3 begins to rapidly rise in frequency for the following vowel.
+
+![voiceless stop]({{ "/assets/img/r_sil.png" | relative_url }})
 
 [Back to TOC](#top)
 
@@ -151,14 +155,12 @@ The boundary should be placed at the transition into the next segment or at the 
 **Vowels**
 The boundary should be placed at the onset of phonation/laryngeal activity related to the beginning of the vowel. Look for the onset of complex voicing (with higher frequency components).
 
-Example: ![voiceless stop](/assets/img/initial_vowel.jpg)
-
 “Glottal pop” at the beginning of a vowel should be included as part of the vowel and the boundary should be placed adjacent to the glottal pulse.
 
 **Glides (W and Y)**
 The boundary placed at the onset of phonation or articulation (onset of glide may be something like a voiceless vowel).
 
-Example: ![voiceless stop](/assets/img/initial_glide.jpg)
+![voiceless stop]({{ "/assets/img/l_sil.png" | relative_url }})
 
 [Back to TOC](#top)
 
@@ -169,6 +171,8 @@ Example: ![voiceless stop](/assets/img/initial_glide.jpg)
 ## Ambiguity & fuzzy boundaries
 ### Transitions
 Transition segments of consonants and vowels should be included in the vowel portion. If the vowel segmentation occurs within the transition but does not include the entire transition, you do not need to adjust the boundaries.
+
+For transitions between two vowels (e.g., across word boundaries), it may be hard to distinguish between the two vowels, particularly if the final vowel and initial vowel share the same quality or are creaky. In these cases, use your best judgment to determine the boundary between the segments. Our guidance would be to place it about halfway through, but don't let this override your perception or experience.
 
 ### Reductions
 Connected speech reductions that result in deletion of segments from the citation form (e.g., /P R AA1 B AH0 B L IY0/ -> [P R AA1 B L IY0]) should have the phones removed.
@@ -187,6 +191,9 @@ There are two ways we will deal with syllabic liquids, for /l/ there will be two
 **Syllabic L:** Occurs word finally in unstressed syllables (words ending in -le, -al, -el, -ol)
 
 Rule: keep the vowel but make the duration of the vowel segment very short in duration (<=10ms).
+
+![voiceless stop]({{ "/assets/img/syl_l.png" | relative_url }})
+
 
 **Syllabic Nasals:**
 Rule: keep the vowel but make the duration of the vowel segment very short in duration (<=10ms).
